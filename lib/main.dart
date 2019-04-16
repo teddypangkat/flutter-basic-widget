@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'column_row_sample.dart';
+import 'form_validation_sample.dart';
+import 'card_sample.dart';
+import 'basic_list_simple.dart';
+import 'horizontal_list_simple.dart';
 
-void main() => runApp(ColumnnRow());
+void main() => runApp(HorizontalListSample());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
