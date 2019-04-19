@@ -6,10 +6,10 @@ class RouteNavigationSample extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('Route Navigation Sample'),
-        ), body: FirstRoute(),
+
+         body: FirstRoute(),
       ),
-    )
+    );
   }
 }
 

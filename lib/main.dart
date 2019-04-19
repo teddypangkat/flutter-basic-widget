@@ -4,8 +4,13 @@ import 'form_validation_sample.dart';
 import 'card_sample.dart';
 import 'basic_list_simple.dart';
 import 'horizontal_list_simple.dart';
+import 'latihan_custom_list.dart';
+import 'latihan_login_form.dart';
+import 'route_navigation_sample.dart';
 
-void main() => runApp(HorizontalListSample());
+
+void main() => runApp(RouteNavigationSample());
+
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
