@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 
-
 class RouteNavigationSample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-
-         body: FirstRoute(),
+        body: FirstRoute(),
       ),
     );
   }
@@ -55,4 +53,3 @@ class SecondRoute extends StatelessWidget {
     );
   }
 }
-

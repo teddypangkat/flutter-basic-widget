@@ -7,9 +7,10 @@ import 'horizontal_list_simple.dart';
 import 'latihan_custom_list.dart';
 import 'latihan_login_form.dart';
 import 'route_navigation_sample.dart';
+import 'drawer_sample.dart';
 
 
-void main() => runApp(RouteNavigationSample());
+void main() => runApp(DrawerSample());
 
 
 class MyApp extends StatelessWidget {
