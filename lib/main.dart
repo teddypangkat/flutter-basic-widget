@@ -8,10 +8,9 @@ import 'latihan_custom_list.dart';
 import 'latihan_login_form.dart';
 import 'route_navigation_sample.dart';
 import 'drawer_sample.dart';
+import 'bottom_app_bar_sample.dart';
 
-
-void main() => runApp(DrawerSample());
-
+void main() => runApp(BottomAppBarSample());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Flutter Demo',
         home: new Scaffold(
-          appBar: new AppBar(
+          appBar: AppBar(
             title: Text("Flutter layout demo"),
           ),
           body: SingleChildScrollView(
@@ -45,7 +44,7 @@ class MyApp extends StatelessWidget {
   }
 
   Widget titleSection = Container(
-    padding: const EdgeInsets.all(32),
+    padding: EdgeInsets.all(32),
     child: Row(
       children: <Widget>[
         Expanded(
